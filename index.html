@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página principal</title>
+  </head>
+  <body>
+    <h1 id="inicio">Como Surgiu a Internet, o HTML e o Que São Tags?</h1>
+    <hr />
+
+    <h2><u>Índice</u></h2>
+    <ul>
+      <li><a href="#surgimento">A Origem da Internet</a></li>
+      <li><a href="#html">O Que é HTML?</a></li>
+      <li><a href="#tags">O Que São Tags?</a></li>
+      <li><a href="#conclusao">Conclusão</a></li>
+    </ul>
+
+    <h2 id="surgimento"><u>A Origem da Internet</u></h2>
+    <small><a href="#inicio">>Índice</a></small>
+    <p>
+      A internet não surgiu da noite para o dia, nem com a intenção de ser usada
+      para entretenimento ou redes sociais. Tudo começou nos anos 1960, durante
+      a Guerra Fria, quando os Estados Unidos criaram um projeto chamado
+      ARPANET. O objetivo era desenvolver uma rede de comunicação
+      descentralizada que continuasse funcionando mesmo que uma parte dela fosse
+      destruída. Era uma solução estratégica, pensando na segurança da
+      informação.
+    </p>
+    <p>
+      Com o tempo, essa rede foi sendo usada por universidades e centros de
+      pesquisa, permitindo o envio de mensagens e dados entre computadores em
+      diferentes locais. Já nos anos 80 e 90, com o avanço da tecnologia e o
+      aumento do interesse por redes de comunicação, começaram a surgir os
+      primeiros serviços públicos de acesso à internet. Em 1991, a grande virada
+      aconteceu com a criação da World Wide Web, por Tim Berners-Lee, um
+      cientista britânico. Ele propôs um sistema de páginas interligadas por
+      links — algo muito próximo do que conhecemos hoje como "navegar na
+      internet".
+    </p>
+
+    <h2 id="html"><u>O Que é HTML?</u></h2>
+    <small><a href="#inicio">>índice</a></small>
+    <p>
+      HTML significa HyperText Markup Language, ou, em português, Linguagem de
+      Marcação de Hipertexto. Ele é a base estrutural de quase todas as páginas
+      da web. Quando você abre um site, o navegador interpreta um arquivo HTML
+      para saber o que mostrar: onde está o título, onde começa um parágrafo,
+      onde exibir uma imagem, etc. É como se o HTML fosse o esqueleto da página.
+    </p>
+    <p>
+      Ao contrário de linguagens de programação como Python ou JavaScript, o
+      HTML não executa comandos ou cálculos. Ele apenas marca as partes do
+      conteúdo, dizendo o que cada trecho representa. Por exemplo, com HTML você
+      diz “isso é um título”, “isso é uma imagem”, “isso é um link”. Ele não
+      define cores, tamanhos ou animações — para isso usamos o CSS (para estilos
+      visuais) e o JavaScript (para comportamentos e interações).
+    </p>
+    <p>
+      Aprender HTML é o primeiro passo para quem deseja criar sites, blogs,
+      portfólios, lojas virtuais ou até aplicativos web. E o melhor: por ser uma
+      linguagem simples e fácil de entender, qualquer pessoa pode começar, mesmo
+      sem nenhuma experiência anterior com programação.
+    </p>
+
+    <h2 id="tags"><u>O que são Tags</u></h2>
+    <small><a href="#inicio">>índice</a></small>
+    <p>
+      As tags são os comandos básicos do HTML. Elas são usadas para estruturar o
+      conteúdo e informar ao navegador o que está sendo exibido. Toda página
+      HTML é composta por diversas tags, cada uma com sua função específica. As
+      tags funcionam como blocos de montagem: você usa uma para o título, outra
+      para um parágrafo, outra para um link, e assim por diante.
+    </p>
+    <p>
+      Uma tag geralmente tem uma abertura e um fechamento,
+      <u>como neste exemplo:</u>
+    </p>
+    <p>
+      <strong>&lt;p&gt;</strong> Este é um parágrafo de texto.
+      <strong>&lt;/p&gt;</strong>
+    </p>
+    <p>
+      A tag <strong>&lt;p&gt;</strong> indica o início de um parágrafo, e a
+      <strong>&lt;/p&gt;</strong> marca o fim dele. O conteúdo entre elas será
+      exibido como texto no site. Existem também tags como
+      <strong>&lt;h1&gt;</strong> até <strong>&lt;h6&gt;</strong> para títulos,
+      <strong>&lt;a&gt;</strong> para links, <strong>&lt;img&gt;</strong> para
+      imagens, <strong>&lt;ul&gt;</strong> e <strong>&lt;li&gt;</strong> para
+      listas, <strong>&lt;div&gt;</strong> para seções da página, entre muitas
+      outras.
+    </p>
+    <p>
+      Algumas tags podem ter atributos que trazem informações adicionais.
+      <u>Por exemplo:</u>
+    </p>
+    <p>&lt;a href="https://www.exemplo.com"&gt; Clique aqui &lt;/a&gt;</p>
+    <p>
+      Nesse caso, <strong>href</strong> é um atributo que indica o link de
+      destino. As tags são fundamentais para o HTML e, ao entender como elas
+      funcionam, você começa a enxergar a estrutura oculta por trás de qualquer
+      site que visita.
+    </p>
+
+    <h3>Principais Tags</h3>
+
+    <p>
+      🏗️ <b>Tags de Estrutura</b>
+      <br />
+      !DOCTYPE html
+      <br />
+      Define o tipo de documento como HTML5. Sempre a primeira linha de um
+      arquivo HTML.
+      <br />
+      html
+      <br />
+      Tag raiz de todo documento HTML. Todo o conteúdo vem dentro dela
+      <br />
+      head
+      <br />
+      Contém informações "invisíveis" da página, como título, links de estilos e
+      meta informações.
+      <br />
+      title
+      <br />
+      Define o título da aba do navegador. Fica dentro do &lt;head&gt;.
+      <br />
+      body
+      <br />
+      Contém todo o conteúdo visível da página: textos, imagens, botões, etc.
+    </p>
+
+    <p>
+      📰 <b>Tags de Texto</b>
+      <br />
+      h1 a h6
+      <br />
+      São os títulos (headers) da página. h1 é o mais importante, h6 o menos.
+      <br />
+      p
+      <br />
+      Cria um parágrafo de texto.
+      <br />
+      br
+      <br />
+      Cria uma quebra de linha (não tem tag de fechamento).
+      <br />
+      strong
+      <br />
+      Deixa o texto em negrito (também usado para dar ênfase semântica).
+      <br />
+      em
+      <br />
+      Coloca o texto em itálico, com ênfase.
+    </p>
+
+    <p>
+      🔗 <b>Tags de Links e Mídia</b>
+      <br />
+      a
+      <br />
+      Cria um link. Usa o atributo href para indicar o destino.
+      <br />
+      Exemplo: &lt;a href="https://exemplo.com"&gt;Clique aqui&lt;/a&gt;
+      <br />
+      img
+      <br />
+      Exibe uma imagem. Usa o atributo src para o caminho da imagem.
+      <br />
+      Exemplo: &lt;img src="imagem.jpg" alt="Descrição"&gt;
+      <br />
+      video
+      <br />
+      Incorpora um vídeo na página. Pode usar atributos como controls.
+      <br />
+      audio
+      <br />
+      Insere um áudio com opções de controle.
+    </p>
+
+    <p>
+      📋 <b>Listas</b>
+      <br />
+      ul
+      <br />
+      Cria uma lista não ordenada (com marcadores).
+      <br />
+      ol
+      <br />
+      Cria uma lista ordenada (com números).
+      <br />
+      li
+      <br />
+      Define um item da lista, usado dentro de &lt;ul&gt; ou &lt;ol&gt;.
+    </p>
+
+    <p>
+      📦 <b>Outras Estruturas</b>
+      <br />
+      div
+      <br />
+      Cria uma divisão de conteúdo genérica. Muito usada para agrupar elementos
+      e aplicar estilos.
+      <br />
+      span
+      <br />
+      Semelhante ao &lt;div&gt;, mas usado dentro de linhas de texto (inline)
+      para aplicar estilos ou identificar partes específicas.
+      <br />
+      form
+      <br />
+      Cria um formulário para entrada de dados. Usa tags como &lt;input&gt;,
+      &lt;label&gt;, &lt;textarea&gt;, etc.
+    </p>
+
+    <h2 id="conclusao"><u>Conclusão</u></h2>
+    <small><a href="#inicio">>índice</a></small>
+    <p>
+      A internet nasceu de uma necessidade estratégica, mas acabou se
+      transformando na maior rede de comunicação e informação do mundo. O HTML
+      surgiu como uma forma de organizar essa informação de maneira acessível e
+      padronizada, permitindo que diferentes sistemas e navegadores pudessem
+      entender e exibir os dados corretamente.
+    </p>
+    <p>
+      Hoje, saber HTML é uma habilidade valiosa — não só para quem quer
+      trabalhar com tecnologia, mas para qualquer pessoa que deseje entender
+      melhor como o conteúdo digital é criado. Aprender o básico já permite
+      construir suas próprias páginas e dar os primeiros passos no mundo do
+      desenvolvimento web. E tudo começa com o entendimento das tags, os blocos
+      fundamentais dessa linguagem simples e poderosa.
+    </p>
+  </body>
+</html>
